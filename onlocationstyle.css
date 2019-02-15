@@ -1,0 +1,139 @@
+*{
+    
+    box-sizing: border-box;
+    margin:0;
+    padding: 0px;
+    font-family: Barlow, sans-serif;
+}
+.containerparent{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.containerchild{
+
+    min-width:150px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+   
+}
+.logostyle{
+    width: 400px;
+    max-width: 100%;
+    padding-bottom:40px;
+    padding-top:40px;
+    padding-right: 20px;
+    padding-left:20px;
+}
+.midwaystyle{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
+    no-repeat center/cover url(movingmidway.jpg); padding: 40px; margin-top: 40px;
+}
+.homestyle{
+    background-color: #414F66;   
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;                
+    background-image:linear-gradient((32, 28, 33, 0.2),(32,28,33,0.2));
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding:1px 10px;
+    border-color: #c1b8ac;
+}
+.bannerstyle{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
+    no-repeat center/cover url(banner.jpg); padding: 5px;
+}
+.bodystyle{
+    font-family: Barlow, sans-serif;
+    font-size: 1rem;
+    color: #322833;
+    padding: 40px;
+}
+.liststyle{
+    font-family: Barlow, sans-serif;
+    font-size: 1rem;
+    color: #322833;
+    padding-left:10px;
+    
+}
+.menustyle{
+    font-family: Barlow, sans-serif;
+    font-size: o.8rem;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: #322833;
+            
+}
+.hyperlinkstyle{
+    text-decoration: none;
+    color: #322833;
+}
+.heading1{
+    font-size: 2.5rem;
+    color: #322833;
+    font-weight:bold;
+    font-family: Barlow, sans-serif;
+}
+.heading2{
+    font-size: 2.0rem;
+    color: #513e44;
+    font-weight:bold;
+    font-family: Barlow, sans-serif;
+}
+.captionlarge{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Barlow, sans-serif;
+    text-align: center;   
+}
+.captionsmall{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Barlow, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.buttonstyle{
+    background-color:#c1b8ac;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    border-color: #c1b8ac;
+}
+.floatright{
+    float:right;
+}
+.picstyle1{
+    background: 
+    no-repeat center/cover url(cameras.jpg); padding: 40px; margin-top: 40px;
+}
+.picstyle2{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
+    no-repeat center/cover url(movingmidway.jpg); padding: 40px; margin-top: 40px;
+}
+.picstyle3{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
+    no-repeat center/cover url(lighting.jpg); padding: 40px; margin-top: 40px;
+}
+.picstyle4{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
+    no-repeat center/cover url(sound.jpg); padding: 40px; margin-top: 40px;
+}
+.picstyle5{
+    background: 
+    no-repeat center/cover url(lookup.jpg); padding: 40px; margin-top: 40px;
+}
+.picstyle6{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
+    no-repeat center/cover url(figure.jpg); padding: 40px; margin-top: 40px;
+}
