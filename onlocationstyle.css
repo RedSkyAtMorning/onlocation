@@ -10,27 +10,35 @@
     flex-wrap: wrap;
     border: 5px;
     justify-content: flex-start;
-    max-width: 100%;
+   
 }
 .containerchild{
-
     min-width:150px;
-    height: 20px;
-    margin: 20px;
-    padding: 20px;
-   
+    margin: 5px;
+    padding: 10px;
+}
+.menucontainerparent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin-left: 10px;
+    }
+.menucontainerchild{
+    min-width:100px;
+    margin:10px;
 }
 .logostyle{
     width: 400px;
     max-width: 100%;
-    padding-bottom:40px;
+    padding-bottom:20px;
     padding-top:40px;
     padding-right: 20px;
     padding-left:20px;
 }
 .midwaystyle{
     background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
-    no-repeat center/cover url(movingmidway.jpg); padding: 40px; margin-top: 40px;
+    no-repeat center/cover url(movingmidway.jpg); padding: 40px; margin-top:10px;
 }
 .homestyle{
     background-color: #414F66;   
@@ -53,6 +61,7 @@
     font-size: 1rem;
     color: #322833;
     padding: 40px;
+    
 }
 .liststyle{
     font-family: Barlow, sans-serif;
@@ -63,8 +72,8 @@
 }
 .menustyle{
     font-family: Barlow, sans-serif;
-    font-size: o.8rem;
-    padding-bottom: 40px;
+    font-size: 1rem;
+    padding: 5px;
     text-decoration: none;
     color: #322833;
             
@@ -107,7 +116,7 @@
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
-    padding: 20px;
+    padding: 5px;
     border-color: #c1b8ac;
 }
 .floatright{
